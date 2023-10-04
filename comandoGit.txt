@@ -1,0 +1,28 @@
+git init
+
+git add . -> all -> ./Document
+
+git commit -m "Primer commit"
+
+git status => git status -s => deja ver cambios de forma individual
+
+git diff => muestra los cambios en las lineas del archivo
+
+cat [nombre archivo] => muestra el contenido del archivo
+ 
+git log --oneline => se visualizan los cambios generales
+
+git branch -M main
+
+git remote add origin https://github.com/hilcres/PaginaWeb.git
+
+git push -u origin main ->master
+
+
+<!-- creando ramas -->
+
+git branch => validando el nombre de la rama
+
+git checkout -b [nombre de la rama] => creando la rama
+
+git merge [nombre de la rama] => trae la rama a relacion
